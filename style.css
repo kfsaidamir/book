@@ -14,25 +14,14 @@ header {
     height: 15vh;
 }
 
-.book {
-    gap:10px;
-    justify-content: center;
-    align-items: center;
-    display: flex;
-}
-
-.book > h2 {
-    color: #4D2900;
-    font-size: 14px;
-}
 
 span {
     font-weight: 900;
     font-size: 14px;
 }
 
-.book > img {
-    width: 42px;
+.book {
+
 }
 
 nav a {
@@ -104,7 +93,7 @@ input {
 }
 
 .information {
-    width: 41%;
+    width: 45%;
 }
 
 .information > a {
@@ -122,9 +111,9 @@ input {
 .forma {
     box-shadow: -18px 10px 5px 0px rgba(0,0,0,0.61);
     position: relative;
-    width: 632px;
+    width: 602px;
     background-color: #4D2900;
-    height: 372px;
+    height: 352px;
 }
 
 .forma1 {
@@ -201,7 +190,14 @@ input {
     padding: 20px;
     height: 390px;
     width: 210px;
-    box-shadow: 7px 11px 43px -3px rgba(0,0,0,0.75);
+    box-shadow: -2px 10px 22px 6px rgba(0,0,0,0.15);
+    transition: .3s ease;
+}
+
+.box:hover {
+    transform: scale(1.1);
+    box-shadow: -2px 10px 22px 6px rgba(0,0,0,0.37);
+
 }
 
 .box > h1 {
@@ -269,6 +265,7 @@ input {
     box-shadow: 0px 4px 11px 0px rgba(0, 0, 0, 0.25);
     width: 242px;
     height: 76px;
+    transition: .3s ease;
 }
 
 .container > h1 {
@@ -277,8 +274,17 @@ input {
     font-size: 18px;
 }
 
+.container:hover {
+    transform: scale(1.1);
+    background-color: #E16A00;
+    color: #fff;
+    cursor: pointer;
+}
+
+
+
 .over4 {
-    padding: 10px 150px;
+    padding: 20px 150px;
     margin-top: 30px;
     display: grid;
     gap: 40px;
