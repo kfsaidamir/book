@@ -77,10 +77,11 @@ input {
 .over {
     justify-content: space-between;
     align-items: center;
+    gap: 100px;
     display: flex;
 }
 
-.information > h1 {
+.information > h2 {
     font-size: 50px;
     letter-spacing: 2px;
     color:  #241400;
@@ -92,7 +93,7 @@ input {
     font-weight: 700;
     color: #241400;
     margin-top: 20px;
-    font-size: 17px;
+    font-size: 14px;
 }
 
 .information {
