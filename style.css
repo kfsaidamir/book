@@ -1,7 +1,16 @@
+
+  @import url('https://fonts.googleapis.com/css2?family=Almendra+Display&family=Crimson+Text&family=Dhurjati&family=Hedvig+Letters+Sans&family=Montserrat&family=Open+Sans:ital,wght@0,400;1,300;1,400&family=Playfair+Display&family=Rubik+Bubbles&display=swap');
+
+
+
+
+
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-family: Montserrat;
+
 }
 
 header {
@@ -67,6 +76,10 @@ input {
     display: flex;
 }
 
+
+section {
+    padding: 10px 100px;
+}
 
 #section {
     margin-top: 120px;
@@ -195,7 +208,7 @@ input {
 .box {
     padding: 20px;
     height: 390px;
-    width: 210px;
+    width: 220px;
     box-shadow: -2px 10px 22px 6px rgba(0,0,0,0.15);
     transition: .3s ease;
 }
@@ -287,8 +300,6 @@ input {
     cursor: pointer;
 }
 
-
-
 .over4 {
     padding: 20px 150px;
     margin-top: 30px;
@@ -312,4 +323,164 @@ input {
     width: 20%;
     background-color: #4D2900;
     height: 15px;
+}
+
+#information {
+    width: 100%;
+    height: max-content;
+}
+
+#information > h1 {
+    margin-top: 60px;
+    letter-spacing: 2px;
+    font-size: 38px;
+    text-align: center;
+}
+
+.number {
+    gap: 100px;
+    margin-top: 30px;
+    display: flex;
+    align-items: center;
+}
+
+.cont1 {
+    gap: 20px;
+    display: flex;
+    align-items: center;
+}
+
+.cont1 > h1 {
+    font-size: 50px;
+}
+
+.cont1 > p {
+
+    font-size: 13px;
+}
+
+#dostavka{ 
+    width: 100%;
+    height: max-content;
+}
+
+#dostavka > h1 {
+    margin-top: 60px;
+    letter-spacing: 2px;
+    font-size: 38px;
+    text-align: center;
+}
+
+#dostavka > p {
+    font-size: 14px;
+    margin-top: 70px;
+    text-align: center;
+}
+
+#dostavka > .a2 {
+    margin-top: 20px;
+    text-align: center;
+}
+
+.a2 > a { 
+    color: black;
+    text-decoration: none;
+}
+
+.a2 > a:hover {
+    color: #E16A00;
+}
+
+#social {
+    width: 100%;
+    height: max-content;
+}
+
+#social > h1 {
+    text-align: center;
+    margin-top: 60px;
+    letter-spacing: 2px;
+    font-size: 25px;
+    color:#241400;
+    font-weight: 900;
+}
+
+.social {
+    margin-top: 30px;
+    text-align: center;
+}
+
+
+footer {
+    position: relative;
+    padding: 10px 100px;
+    margin-top: 90px;
+    height: 360px;
+    background-color: #391F00;
+    width: 100%;
+}
+
+
+.over5 {
+    gap: 100px;
+    display: flex;
+    align-items: center;
+    margin-top: 90px;
+}
+
+.book2 > p {
+    color: white;
+   
+}
+
+.span2 {
+    font-weight: 900;
+    font-size: 14px;
+    border-bottom: 1px solid white;
+}
+
+.book2 {
+    cursor: pointer;
+    gap: 10px;
+    display: flex;
+    align-items: center;
+}
+
+.population > p {
+    cursor: pointer;
+    color: white;
+    font-size: 16px;
+}
+
+.call > p {
+    padding-bottom: 20px;
+    color: white;
+    font-size: 12px;
+    font-weight: 900;
+}
+
+.call > a {
+    padding:5px;
+    border: 1px solid #E16A00;
+    text-decoration: none;
+    font-size: 14px;
+    color: #E16A00;
+}
+
+.social > img {
+    cursor: pointer;
+}
+
+.rigts {
+    left:25%;
+    bottom: 6%;
+    position: absolute;
+    align-items: center;
+    gap: 60px;
+    display: flex;
+}
+
+.rigts > p {
+    color: white;
+    font-size: 12px;
 }
