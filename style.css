@@ -411,7 +411,7 @@ footer {
 }
 
 .over5 {
-    gap: 60px;
+    justify-content: space-between;
     display: flex;
     align-items: center;
     margin-top: 90px;
